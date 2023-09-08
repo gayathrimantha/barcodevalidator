@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gamascanner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:4:5-65
+12-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:4:22-63
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->[:react-native-camera] /Users/gama/Apps/mobileApps/frontEnd/gamascanner/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalRelease/AndroidManifest.xml:9:5-65
+13-->[:react-native-camera] /Users/gama/Apps/mobileApps/frontEnd/gamascanner/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalRelease/AndroidManifest.xml:9:22-62
+14
+15    <uses-feature
+15-->[:react-native-camera] /Users/gama/Apps/mobileApps/frontEnd/gamascanner/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalRelease/AndroidManifest.xml:11:5-13:36
+16        android:name="android.hardware.camera"
+16-->[:react-native-camera] /Users/gama/Apps/mobileApps/frontEnd/gamascanner/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalRelease/AndroidManifest.xml:12:9-47
+17        android:required="false" />
+17-->[:react-native-camera] /Users/gama/Apps/mobileApps/frontEnd/gamascanner/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalRelease/AndroidManifest.xml:13:9-33
+18    <uses-feature
+18-->[:react-native-camera] /Users/gama/Apps/mobileApps/frontEnd/gamascanner/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalRelease/AndroidManifest.xml:14:5-16:36
+19        android:name="android.hardware.camera.autofocus"
+19-->[:react-native-camera] /Users/gama/Apps/mobileApps/frontEnd/gamascanner/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalRelease/AndroidManifest.xml:15:9-57
+20        android:required="false" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+20-->[:react-native-camera] /Users/gama/Apps/mobileApps/frontEnd/gamascanner/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalRelease/AndroidManifest.xml:16:9-33
+21    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/gama/.gradle/caches/transforms-3/44a155ee6990234dcd75306185f18c35/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+22-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/gama/.gradle/caches/transforms-3/44a155ee6990234dcd75306185f18c35/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+23
+24    <application
+24-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:6:5-25:19
+25        android:name="com.gamascanner.MainApplication"
+25-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:7:7-38
+26        android:allowBackup="false"
+26-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:11:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.7.0] /Users/gama/.gradle/caches/transforms-3/57e3facbf92c5e79086c2c8ef717f3ef/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:9:7-41
+29        android:label="@string/app_name"
+29-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:8:7-39
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:10:7-52
+31        android:theme="@style/AppTheme" >
+31-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:12:7-38
+32        <activity
+32-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:13:7-24:18
+33            android:name="com.gamascanner.MainActivity"
+33-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:14:9-37
+34            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+34-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:16:9-118
+35            android:exported="true"
+35-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:19:9-32
+36            android:label="@string/app_name"
+36-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:15:9-41
+37            android:launchMode="singleTask"
+37-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:17:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:18:9-51
+39            <intent-filter>
+39-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:20:9-23:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:21:13-65
+40-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:21:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:22:13-73
+42-->/Users/gama/Apps/mobileApps/frontEnd/gamascanner/android/app/src/main/AndroidManifest.xml:22:23-70
+43            </intent-filter>
+44        </activity>
+45
+46        <service
+46-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/gama/.gradle/caches/transforms-3/f7bba26ba1482faaf25e165c9d8b16fd/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:9:9-15:19
+47            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+47-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/gama/.gradle/caches/transforms-3/f7bba26ba1482faaf25e165c9d8b16fd/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:10:13-91
+48            android:directBootAware="true"
+48-->[com.google.mlkit:common:17.2.0] /Users/gama/.gradle/caches/transforms-3/d020f8c3ee035b6ec92ec78fc0b42803/transformed/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+49            android:exported="false" >
+49-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/gama/.gradle/caches/transforms-3/f7bba26ba1482faaf25e165c9d8b16fd/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:11:13-37
+50            <meta-data
+50-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/gama/.gradle/caches/transforms-3/f7bba26ba1482faaf25e165c9d8b16fd/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+51                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+51-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/gama/.gradle/caches/transforms-3/f7bba26ba1482faaf25e165c9d8b16fd/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/gama/.gradle/caches/transforms-3/f7bba26ba1482faaf25e165c9d8b16fd/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+53            <meta-data
+53-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/gama/.gradle/caches/transforms-3/8617302c184db7a949259e4d3326c9e8/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+54                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+54-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/gama/.gradle/caches/transforms-3/8617302c184db7a949259e4d3326c9e8/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/gama/.gradle/caches/transforms-3/8617302c184db7a949259e4d3326c9e8/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+56            <meta-data
+56-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/gama/.gradle/caches/transforms-3/b6a23c6ec4ac99bc1aed975664bd6294/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+57                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+57-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/gama/.gradle/caches/transforms-3/b6a23c6ec4ac99bc1aed975664bd6294/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/gama/.gradle/caches/transforms-3/b6a23c6ec4ac99bc1aed975664bd6294/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+59            <meta-data
+59-->[com.google.mlkit:vision-common:16.5.0] /Users/gama/.gradle/caches/transforms-3/d5c1e8d091b1ce61a5b713740c8d8b00/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+60                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+60-->[com.google.mlkit:vision-common:16.5.0] /Users/gama/.gradle/caches/transforms-3/d5c1e8d091b1ce61a5b713740c8d8b00/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.mlkit:vision-common:16.5.0] /Users/gama/.gradle/caches/transforms-3/d5c1e8d091b1ce61a5b713740c8d8b00/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+62            <meta-data
+62-->[com.google.mlkit:common:17.2.0] /Users/gama/.gradle/caches/transforms-3/d020f8c3ee035b6ec92ec78fc0b42803/transformed/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+63                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+63-->[com.google.mlkit:common:17.2.0] /Users/gama/.gradle/caches/transforms-3/d020f8c3ee035b6ec92ec78fc0b42803/transformed/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.mlkit:common:17.2.0] /Users/gama/.gradle/caches/transforms-3/d020f8c3ee035b6ec92ec78fc0b42803/transformed/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+65        </service>
+66
+67        <provider
+67-->[com.google.mlkit:common:17.2.0] /Users/gama/.gradle/caches/transforms-3/d020f8c3ee035b6ec92ec78fc0b42803/transformed/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+68            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+68-->[com.google.mlkit:common:17.2.0] /Users/gama/.gradle/caches/transforms-3/d020f8c3ee035b6ec92ec78fc0b42803/transformed/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+69            android:authorities="com.gamascanner.mlkitinitprovider"
+69-->[com.google.mlkit:common:17.2.0] /Users/gama/.gradle/caches/transforms-3/d020f8c3ee035b6ec92ec78fc0b42803/transformed/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+70            android:exported="false"
+70-->[com.google.mlkit:common:17.2.0] /Users/gama/.gradle/caches/transforms-3/d020f8c3ee035b6ec92ec78fc0b42803/transformed/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+71            android:initOrder="99" />
+71-->[com.google.mlkit:common:17.2.0] /Users/gama/.gradle/caches/transforms-3/d020f8c3ee035b6ec92ec78fc0b42803/transformed/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:17.6.0] /Users/gama/.gradle/caches/transforms-3/b50a14064223a78c49e8754910cf1d8f/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:17.6.0] /Users/gama/.gradle/caches/transforms-3/b50a14064223a78c49e8754910cf1d8f/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:17.6.0] /Users/gama/.gradle/caches/transforms-3/b50a14064223a78c49e8754910cf1d8f/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:17.6.0] /Users/gama/.gradle/caches/transforms-3/b50a14064223a78c49e8754910cf1d8f/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+77
+78        <meta-data
+78-->[com.google.android.gms:play-services-basement:17.6.0] /Users/gama/.gradle/caches/transforms-3/b016440e07788bd4095950ca980dd553/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+79            android:name="com.google.android.gms.version"
+79-->[com.google.android.gms:play-services-basement:17.6.0] /Users/gama/.gradle/caches/transforms-3/b016440e07788bd4095950ca980dd553/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->[com.google.android.gms:play-services-basement:17.6.0] /Users/gama/.gradle/caches/transforms-3/b016440e07788bd4095950ca980dd553/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.0.0] /Users/gama/.gradle/caches/transforms-3/6d2005a533fa4046737a8c8e298cc408/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.0.0] /Users/gama/.gradle/caches/transforms-3/6d2005a533fa4046737a8c8e298cc408/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+84            android:authorities="com.gamascanner.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.0.0] /Users/gama/.gradle/caches/transforms-3/6d2005a533fa4046737a8c8e298cc408/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.0.0] /Users/gama/.gradle/caches/transforms-3/6d2005a533fa4046737a8c8e298cc408/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.0.0] /Users/gama/.gradle/caches/transforms-3/6d2005a533fa4046737a8c8e298cc408/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.0.0] /Users/gama/.gradle/caches/transforms-3/6d2005a533fa4046737a8c8e298cc408/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.0.0] /Users/gama/.gradle/caches/transforms-3/6d2005a533fa4046737a8c8e298cc408/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/gama/.gradle/caches/transforms-3/97b4285a8d91dd4dd6262c7e69c3843f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/gama/.gradle/caches/transforms-3/97b4285a8d91dd4dd6262c7e69c3843f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/gama/.gradle/caches/transforms-3/97b4285a8d91dd4dd6262c7e69c3843f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+92        </provider>
+93
+94        <service
+94-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/gama/.gradle/caches/transforms-3/44a155ee6990234dcd75306185f18c35/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+95            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+95-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/gama/.gradle/caches/transforms-3/44a155ee6990234dcd75306185f18c35/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+96            android:exported="false" >
+96-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/gama/.gradle/caches/transforms-3/44a155ee6990234dcd75306185f18c35/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+97            <meta-data
+97-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/gama/.gradle/caches/transforms-3/44a155ee6990234dcd75306185f18c35/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+98                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+98-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/gama/.gradle/caches/transforms-3/44a155ee6990234dcd75306185f18c35/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+99                android:value="cct" />
+99-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/gama/.gradle/caches/transforms-3/44a155ee6990234dcd75306185f18c35/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+100        </service>
+101        <service
+101-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/gama/.gradle/caches/transforms-3/12131a97c8fd659171f2e102ff5b1e62/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+102            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+102-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/gama/.gradle/caches/transforms-3/12131a97c8fd659171f2e102ff5b1e62/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+103            android:exported="false"
+103-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/gama/.gradle/caches/transforms-3/12131a97c8fd659171f2e102ff5b1e62/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+104            android:permission="android.permission.BIND_JOB_SERVICE" >
+104-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/gama/.gradle/caches/transforms-3/12131a97c8fd659171f2e102ff5b1e62/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+105        </service>
+106
+107        <receiver
+107-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/gama/.gradle/caches/transforms-3/12131a97c8fd659171f2e102ff5b1e62/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+108            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+108-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/gama/.gradle/caches/transforms-3/12131a97c8fd659171f2e102ff5b1e62/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+109            android:exported="false" />
+109-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/gama/.gradle/caches/transforms-3/12131a97c8fd659171f2e102ff5b1e62/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+110    </application>
+111
+112</manifest>
